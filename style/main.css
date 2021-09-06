@@ -46,7 +46,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(126, 56, 56, 0.5), rgba(0, 0, 0, .50)100%), url('/img/capa-palhaco-coroado.jpg');
+    background: linear-gradient(rgba(126, 56, 56, 0.5), rgba(0, 0, 0, .50)100%), url('/img/capa-palhaco-coroado1.jpg');
 
     height: 400%;
     background-size: cover;
