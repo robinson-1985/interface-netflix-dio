@@ -12,7 +12,7 @@
 /*elementos base*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -38,7 +38,6 @@ header nav a {
 }
 
 
-
 header nav a:hover{
     color: #fff;
 }
@@ -46,9 +45,9 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(126, 56, 56, 0.5), rgba(0, 0, 0, .50)100%), url('/img/capa-palhaco-coroado1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-palhaco-coroado.jpg');
 
-    height: 400%;
+    height: 400px;
     background-size: cover;
 
     display: flex;
@@ -62,7 +61,7 @@ header nav a:hover{
     margin-bottom:40px;
 }
 
-.titulo{
+.filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -70,6 +69,7 @@ header nav a:hover{
 
 .botao{
     background-color: rgba(0, 0, 0, .50);
+    border: none;
     color: white;
 
     padding: 15px 30px;
@@ -83,4 +83,28 @@ header nav a:hover{
 .botao:hover{
     background-color: white;
     color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
 }
